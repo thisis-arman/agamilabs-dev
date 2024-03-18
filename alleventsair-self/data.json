@@ -1,0 +1,137 @@
+{
+  "trending": [
+    {
+      "eventtitle": "CUAA Reunion 2024",
+      "eventshort": "CUAARU24",
+      "eventdescription": "Amra sobai Raja",
+      "eventlocation": "CU Campus",
+      "eventstart": "2024-03-31",
+      "starttime": "11:00 AM",
+      "regstarttime": "2024-03-15 12:49:00",
+      "regvaliduntil": "2024-03-25 12:49:00",
+      "logo": "",
+      "organizer": "CUAA"
+    },
+    {
+      "eventtitle": "Old Rajshahi Laboratorian Reunion'24",
+      "eventshort": "ORLabR24",
+      "eventdescription": "Eso Mili Praner Bondhone",
+      "eventlocation": "Rajshahi Laboratory Govt School",
+      "eventstart": "2024-04-12",
+      "starttime": "11:00 AM",
+      "regstarttime": "2024-03-17 15:20:00",
+      "regvaliduntil": "2024-03-31 15:20:00",
+      "logo": "",
+      "organizer": "ORLAB"
+    }
+  ],
+  "instructions": [
+    {
+      "title": "How to participate",
+      "steps": [
+        "Go to <a href=``>Here</a>",
+        "Go through Manual",
+        "Find Your Event",
+        "Start Registration"
+      ],
+      "manuals": [
+        {
+          "title": "video manual",
+          "url": ""
+        },
+        {
+          "title": "text manual",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "title": "How to Start an Event",
+      "steps": [
+        "Go to <a href=``>Here</a>",
+        "Create Account",
+        "Login",
+        "Add Event",
+        "Administer Event",
+        "Buy Package & Start"
+      ],
+      "manuals": [
+        {
+          "title": "video manual",
+          "url": ""
+        },
+        {
+          "title": "text manual",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "title": "How to Administer an Event",
+      "steps": [
+        "Go to <a href=``>Here</a>",
+        "Login & Click Your Event",
+        "Basic Settings",
+        "Participant Settings",
+        "Controller Settings",
+        "Eyes on Observer-panel"
+      ],
+      "manuals": [
+        {
+          "title": "video manual",
+          "url": ""
+        },
+        {
+          "title": "text manual",
+          "url": ""
+        }
+      ]
+    }
+  ],
+  "pastevents": [
+    {
+      "eventtitle": "CUAA Reunion 2023",
+      "eventshort": "CUAARU23",
+      "logo": ""
+    },
+    {
+      "eventtitle": "Old Rajshahi Laboratorian Reunion'24",
+      "eventshort": "ORLabR23",
+      "logo": ""
+    }
+  ],
+  "agami_products": [
+    {
+      "title": "Education Automation Software",
+      "subtitle": "Paperless education system will blow your mind.",
+      "description": "Student-teacher module, Examination module etc.",
+      "ad-banner": "",
+      "clients": [
+        {
+          "name": "Mahila College Chattogram",
+          "shortname": "MCC",
+          "logo": "https://mcc.edu.bd/assets/image/emc_logo.png",
+          "url": "https://mcc.edu.bd"
+        },
+        {
+          "name": "BAF Shaheen College, Chattogram",
+          "shortname": "BAFSC",
+          "logo": "https://bafsc.edu.bd/assets/image/bafsc_logo.png",
+          "url": "https://bafsc.edu.bd"
+        },
+        {
+          "name": "Hathazari Parbati Model Govt. High School, Chattogram",
+          "shortname": "HPGOV",
+          "logo": "https://hpgov.eschoolbd.org/assets/logo/hatpgovs_logo.png",
+          "url": "https://hpgov.eschoolbd.org/"
+        },
+        {
+          "name": "Mehendigonj Mohila College, Mehendigonj, Barishal",
+          "shortname": "MMDC",
+          "logo": "https://mmdc.edu.bd/assets/logo/mmdc_logo.png",
+          "url": "https://mmdc.edu.bd/"
+        }
+      ]
+    }
+  ]
+}

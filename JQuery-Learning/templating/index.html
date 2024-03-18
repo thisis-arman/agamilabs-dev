@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Templating In JS </title>
+     <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <h1>Hello </h1>
+    <div id="task-container">
+
+        <!-- Tasks will be dynamically added here -->
+
+    </div>
+
+    
+    <script id="task-template" type="text/template">
+        {{#each tasks}}
+        <div id="task-{{id}}" class="task {{#if complete}}complete{{/if}}">
+            <input type="checkbox" class="complete-checkbox" data-task-id="{{id}}" {{#if complete}}checked{{/if}}>
+            <span>{{title}}</span>
+        </div>
+        {{/each}}
+    </script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="./template.js"></script>
+
+</body>
+</html>
