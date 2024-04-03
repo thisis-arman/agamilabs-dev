@@ -1,0 +1,200 @@
+[
+  {
+    "studentInformation": {
+      "student_info": [
+        {
+          "student_name": "Arman Hossen",
+          "student_id": 21209141,
+          "hall": "A F Rahaman"
+        }
+      ]
+    },
+
+    "examInformation": {
+      "exam_information": [
+        {
+          "university": "University of Chittagong",
+          "location": "CHATTOGRAM, BANGLADESH",
+          "document_type": "GRADE SHEET",
+          "exam_name": "Fourth Year BSS Honours, 2022 (Regular)",
+          "exam_period": "Held in October 2023 - December 2024",
+          "subject": "Public Administration"
+        }
+      ]
+    },
+    "courses_marks": {
+      "courses": [
+        {
+          "course_code": "Eassy",
+          "course_title": "Essay Paper",
+          "marks": 100,
+          "credit": 4
+        },
+        {
+          "course_code": "PA-401",
+          "course_title": "Organizational Behavior",
+          "marks": 75,
+          "credit": 3
+        },
+        {
+          "course_code": "PA-402",
+          "course_title": "Urban Governance",
+          "marks": 50,
+          "credit": 2
+        },
+        {
+          "course_code": "PA-403",
+          "course_title": "Entrepreneurship Development",
+          "marks": 75,
+          "credit": 3
+        },
+        {
+          "course_code": "PA-404",
+          "course_title": "Project Management",
+          "marks": 75,
+          "credit": 3
+        },
+        {
+          "course_code": "PA-405",
+          "course_title": "Human Resource Management",
+          "marks": 100,
+          "credit": 4
+        },
+        {
+          "course_code": "PA-406",
+          "course_title": "e-Governance",
+          "marks": 75,
+          "credit": 3
+        },
+        {
+          "course_code": "PA-407",
+          "course_title": "Gender and Development",
+          "marks": 75,
+          "credit": 3
+        },
+        {
+          "course_code": "PA-408",
+          "course_title": "Judicial Administration in Bangladesh",
+          "marks": 75,
+          "credit": 3
+        },
+        {
+          "course_code": "PA-409",
+          "course_title": "Comprehensive",
+          "marks": 100,
+          "credit": 4
+        }
+      ],
+      "total_marks": 1724.999,
+      "total_credits": 32
+    },
+    "grade_sheet": {
+      "courses": [
+        {
+          "course_code": "Eassy",
+          "course_title": "Essay Paper",
+          "marks": 100,
+          "credits": 4,
+          "letter_grade": "X",
+          "grade_point": "X",
+          "points_secured": 0.0
+        },
+        {
+          "course_code": "PA-401",
+          "course_title": "Organizational Behavior",
+          "marks": 75,
+          "credits": 3,
+          "letter_grade": "B+",
+          "grade_point": 3.25,
+          "points_secured": 9.75
+        },
+        {
+          "course_code": "PA-402",
+          "course_title": "Urban Governance",
+          "marks": 50,
+          "credits": 2,
+          "letter_grade": "D",
+          "grade_point": 2.0,
+          "points_secured": 4.0
+        },
+        {
+          "course_code": "PA-403",
+          "course_title": "Entrepreneurship Development",
+          "marks": 75,
+          "credits": 3,
+          "letter_grade": "B+",
+          "grade_point": 3.25,
+          "points_secured": 9.75
+        },
+        {
+          "course_code": "PA-404",
+          "course_title": "Project Management",
+          "marks": 75,
+          "credits": 3,
+          "letter_grade": "F",
+          "grade_point": 0.0,
+          "points_secured": 0.0
+        },
+        {
+          "course_code": "PA-405",
+          "course_title": "Human Resource Management",
+          "marks": 100,
+          "credits": 4,
+          "letter_grade": "A-",
+          "grade_point": 3.5,
+          "points_secured": 14.0
+        },
+        {
+          "course_code": "PA-406",
+          "course_title": "e-Governance",
+          "marks": 75,
+          "credits": 3,
+          "letter_grade": "B",
+          "grade_point": 3.0,
+          "points_secured": 9.0
+        },
+        {
+          "course_code": "PA-407",
+          "course_title": "Gender and Development",
+          "marks": 75,
+          "credits": 3,
+          "letter_grade": "C",
+          "grade_point": 2.25,
+          "points_secured": 6.75
+        },
+        {
+          "course_code": "PA-408",
+          "course_title": "Judicial Administration in Bangladesh",
+          "marks": 75,
+          "credits": 3,
+          "letter_grade": "B",
+          "grade_point": 3.0,
+          "points_secured": 9.0
+        },
+        {
+          "course_code": "PA-409",
+          "course_title": "Comprehensive",
+          "marks": 100,
+          "credits": 4,
+          "letter_grade": "D",
+          "grade_point": 2.0,
+          "points_secured": 8.0
+        }
+      ],
+      "total_marks": 1724.99,
+      "total_credits": 32,
+      "total_credits_taken": 32,
+      "total_credits_earned": 25,
+      "total_points_secured": 70.25,
+      "gpa": 2.2,
+      "result": "P"
+    },
+    "authorization":{
+      "date_of_publication": "12.4.2023",
+      "date_of_issue": "12.4.2024",
+      "prepared_by": "Hanif Siddiquee",
+      "compared_by": "Toslima Begum",
+      "signature": "rafiq Ul Islam"
+    }
+  }
+]
