@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/c76170a420.js" crossorigin="anonymous"></script>
+
+    <style type="text/tailwindcss">
+        @layer utilities {
+          .content-auto {
+            content-visibility: auto;
+          }
+        }
+
+         .parallax {
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .vertical-text {
+            writing-mode: vertical-rl; /* Vertical writing mode */
+            text-orientation: mixed; /* Optional, adjusts text orientation */
+            transform: rotate(180deg); /* Optional, for browser compatibility */
+            white-space: nowrap; /* Prevents text from wrapping */
+        }
+    
+      </style>
+</head>
+
+<body style="background-color: #F5EBE9;">
+    <section class="grid grid-cols-12 ">
+        <div class="col-span-3  vertical-text   p-2">
+
+            <p class="font-bold text-md py-4 text-black">
+                Lorem ipsum dolor sit amet, consectetur
+                <i class="fa-brands fa-facebook p-4"></i>
+                <i class="fa-brands fa-instagram"></i>
+            </p>
+        </div>
+        <div class="col-span-9  ">
+            <img class="w-full h-full parallax"
+                src="https://img.freepik.com/free-photo/friends-drinking-beer-eating-barbeque-outdoor-party_23-2149366200.jpg?t=st=1719673539~exp=1719677139~hmac=b4e77b26c00b75f233b7ba5f5af628babe0be9334d036b0d83a60e578fab01cd&w=900"
+                alt="">
+            <div class="h-48 w-96 right-0 bg-white absolute bottom-[-68px] z-1 ">
+                Lorem, ipsum.
+            </div>
+        </div>
+
+    </section>
+
+
+    <section class="py-48 flex justify-center items-center gap-12 text-black">
+
+        <div class="w-96">
+            <h2 class="text-2xl font-bold tracking-wide ">Join Us for an Evening Supporting Our Next Community Leader
+            </h2>
+        </div>
+        <div class="w-96">
+            <p>
+                I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or
+                double click me to
+                add your own content and make changes to the font. I’m a great place for you to tell a story and let
+                your users know a
+                little more about you.</p>
+        </div>
+    </section>
+
+
+
+    <section class="py-24 text-black flex justify-center ">
+        <div class="w-96 bg-red-500 p-12 flex flex-col justify-center ">
+            <h2 class="text-2xl font-bold tracking-wide ">
+                "Even a small community
+                can make a
+                big difference"
+            </h2>
+            <h3 class="text-2xl font-bold tracking-wide py-8">Simone Staley</h3>
+        </div>
+        <div>
+            <img class="w-5/6" src="https://static.wixstatic.com/media/2feeec_1b6d63b9c058404193950f9bae13c09a~mv2_d_5184_2050_s_2.jpg/v1/fill/w_1006,h_540,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/2feeec_1b6d63b9c058404193950f9bae13c09a~mv2_d_5184_2050_s_2.jpg" alt="">
+        </div>
+    </section>
+
+
+
+    <section class="grid grid-cols-3 justify-between  gap-6 w-5/6 mx-auto text-black">
+        <div class="p-5">
+            <p class="py-2">Where :</p>
+            <h2 class="text-5xl font-bold tracking-wide line-clamp-2">Nob Hill Plaza</h2>
+            <button class=" px-6 py-2 my-16 bg-red-500 hover:bg-red-400 border-none ">RSVP NOW</button>
+        </div>
+        <div class="p-5">
+            <p class="py-2">When :</p>
+            <h2 class="text-5xl font-bold tracking-wide line-clamp-2 ">July 31, 2035
+            <br>
+            6-9pm</h2>
+        </div>
+        <div class="p-5">
+            <p class="py-2">Address :</p>
+            <h2 class="text-5xl font-bold tracking-wide line-clamp-3">500 Terry Francine St. SF, CA 94158a</h2>
+        </div>
+
+        <hr class="text-black borde my-2 bg-red-200">
+    </section>
+
+    <section class="flex gird-cols-2 w-4/6 mx-auto justify-center gap-5 text-black border p-4">
+        <div class="w-1/6">
+            <h2 class="text-2xl font-bold">
+                About Simone & the Workers Party
+            </h2>
+        </div>
+        <div class="w-3/6">
+            <p class="leading-loose pb-4">
+                I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double
+                click me to
+                add your own content and make changes to the font. Feel free to drag and drop me anywhere you like on your
+                page. I’m a
+                great place for you to tell a story and let your users know a little more about you.
+    
+                ​</p>
+    
+                <p class="leading-loose py-6">
+                This is a great space to write a long text about your company and your services. You can use this space to
+                go into a
+                little more detail about your company. Talk about your team and what services you provide. Tell your
+                visitors the story
+                of how you came up with the idea for your business and what makes you different from your competitors. Make
+                your company
+                stand out and show your visitors who you are.
+           </p>
+        </div>
+    
+    </section>
+
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    rotate: {
+                        '-90': '-90deg',
+                    },
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
+            }
+        }
+    </script>
+</body>
+
+</html>
